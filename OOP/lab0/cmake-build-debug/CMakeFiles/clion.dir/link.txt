@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/clion.dir/main.cpp.o CMakeFiles/clion.dir/coord.cpp.o  -o clion 

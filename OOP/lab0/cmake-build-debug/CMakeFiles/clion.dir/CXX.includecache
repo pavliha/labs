@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pavel/Code/clion/coord.cpp
+coord.h
+/home/pavel/Code/clion/coord.h
+
+/home/pavel/Code/clion/coord.h
+iostream
+-
+
+/home/pavel/Code/clion/main.cpp
+coord.h
+/home/pavel/Code/clion/coord.h
+

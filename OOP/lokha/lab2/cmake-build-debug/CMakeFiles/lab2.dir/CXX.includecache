@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pavel/Code/OOP/lokha/lab2/car.cpp
+car.h
+/home/pavel/Code/OOP/lokha/lab2/car.h
+
+/home/pavel/Code/OOP/lokha/lab2/car.h
+iostream
+-
+string
+-
+string.h
+-
+algorithm
+-
+
+/home/pavel/Code/OOP/lokha/lab2/main.cpp
+car.h
+/home/pavel/Code/OOP/lokha/lab2/car.h
+
