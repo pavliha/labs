@@ -1,0 +1,4 @@
+Replacing:mtring
+Checking if has a string st: false
+Count string: 31
+Concatenate string: mtringmtring

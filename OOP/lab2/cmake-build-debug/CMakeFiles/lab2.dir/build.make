@@ -43,10 +43,10 @@ RM = /opt/Clion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/incode8/Code/OOP/lab2
+CMAKE_SOURCE_DIR = /home/incode8/Code/labs/OOP/lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/incode8/Code/OOP/lab2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/incode8/Code/labs/OOP/lab2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab2.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/lab2.dir/flags.make
 
 CMakeFiles/lab2.dir/main.cpp.o: CMakeFiles/lab2.dir/flags.make
 CMakeFiles/lab2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/incode8/Code/OOP/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab2.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/main.cpp.o -c /home/incode8/Code/OOP/lab2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/incode8/Code/labs/OOP/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab2.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/main.cpp.o -c /home/incode8/Code/labs/OOP/lab2/main.cpp
 
 CMakeFiles/lab2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/incode8/Code/OOP/lab2/main.cpp > CMakeFiles/lab2.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/incode8/Code/labs/OOP/lab2/main.cpp > CMakeFiles/lab2.dir/main.cpp.i
 
 CMakeFiles/lab2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/incode8/Code/OOP/lab2/main.cpp -o CMakeFiles/lab2.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/incode8/Code/labs/OOP/lab2/main.cpp -o CMakeFiles/lab2.dir/main.cpp.s
 
 CMakeFiles/lab2.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/lab2.dir/main.cpp.o.provides.build: CMakeFiles/lab2.dir/main.cpp.o
 
 CMakeFiles/lab2.dir/MyString.cpp.o: CMakeFiles/lab2.dir/flags.make
 CMakeFiles/lab2.dir/MyString.cpp.o: ../MyString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/incode8/Code/OOP/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab2.dir/MyString.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/MyString.cpp.o -c /home/incode8/Code/OOP/lab2/MyString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/incode8/Code/labs/OOP/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab2.dir/MyString.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/MyString.cpp.o -c /home/incode8/Code/labs/OOP/lab2/MyString.cpp
 
 CMakeFiles/lab2.dir/MyString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/MyString.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/incode8/Code/OOP/lab2/MyString.cpp > CMakeFiles/lab2.dir/MyString.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/incode8/Code/labs/OOP/lab2/MyString.cpp > CMakeFiles/lab2.dir/MyString.cpp.i
 
 CMakeFiles/lab2.dir/MyString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/MyString.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/incode8/Code/OOP/lab2/MyString.cpp -o CMakeFiles/lab2.dir/MyString.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/incode8/Code/labs/OOP/lab2/MyString.cpp -o CMakeFiles/lab2.dir/MyString.cpp.s
 
 CMakeFiles/lab2.dir/MyString.cpp.o.requires:
 
@@ -117,7 +117,7 @@ lab2: CMakeFiles/lab2.dir/main.cpp.o
 lab2: CMakeFiles/lab2.dir/MyString.cpp.o
 lab2: CMakeFiles/lab2.dir/build.make
 lab2: CMakeFiles/lab2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/incode8/Code/OOP/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/incode8/Code/labs/OOP/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/lab2.dir/clean:
 .PHONY : CMakeFiles/lab2.dir/clean
 
 CMakeFiles/lab2.dir/depend:
-	cd /home/incode8/Code/OOP/lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/incode8/Code/OOP/lab2 /home/incode8/Code/OOP/lab2 /home/incode8/Code/OOP/lab2/cmake-build-debug /home/incode8/Code/OOP/lab2/cmake-build-debug /home/incode8/Code/OOP/lab2/cmake-build-debug/CMakeFiles/lab2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/incode8/Code/labs/OOP/lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/incode8/Code/labs/OOP/lab2 /home/incode8/Code/labs/OOP/lab2 /home/incode8/Code/labs/OOP/lab2/cmake-build-debug /home/incode8/Code/labs/OOP/lab2/cmake-build-debug /home/incode8/Code/labs/OOP/lab2/cmake-build-debug/CMakeFiles/lab2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab2.dir/depend
 
