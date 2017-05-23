@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/lab5r.dir/main.cpp.o CMakeFiles/lab5r.dir/Shape.cpp.o CMakeFiles/lab5r.dir/Triangle.cpp.o  -o lab5r 
